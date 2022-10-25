@@ -9,3 +9,8 @@
 （2）iteration：1个iteration即迭代一次，也就是用batchsize个样本训练一次。
 
 （3）epoch：1个epoch指用训练集中的全部样本训练一次，此时相当于batchsize 等于训练集的样本数。
+# 2. ML WorkFlow
+![image](https://user-images.githubusercontent.com/114986300/197780949-d0e56696-beac-4533-961f-6a284cf1fa0d.png)
+### ps:![image](https://user-images.githubusercontent.com/114986300/197789954-4b115735-8cc6-470f-9e42-fb4bafe0c36d.png)
+### ps:![image](https://user-images.githubusercontent.com/114986300/197790370-d31e1f36-ea75-43c4-9204-a00c7d0b39c0.png)  
+注意enumerate返回值有两个,一个是序号，一个是数据（包含训练数据和标签）。在模型中。
